@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "mrzparser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/romanmazeev/MRZParser.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "e2a76e9fb89e6262276bbfc2a0d5d35ca662370c"
+      }
+    },
+    {
+      "identity" : "mrzscanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/romanmazeev/MRZScanner.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "b1847c3c2cbd7e98920f5a45fe6b938f5cf7c0bb"
+      }
+    }
+  ],
+  "version" : 2
+}

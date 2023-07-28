@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55F217DB2A60736C00EE95A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F217DA2A60736C00EE95A7 /* AppDelegate.swift */; };
+		55F217DD2A60736C00EE95A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F217DC2A60736C00EE95A7 /* SceneDelegate.swift */; };
+		55F217DF2A60736C00EE95A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F217DE2A60736C00EE95A7 /* ViewController.swift */; };
+		55F217E22A60736C00EE95A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F217E02A60736C00EE95A7 /* Main.storyboard */; };
+		55F217E42A60736D00EE95A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F217E32A60736D00EE95A7 /* Assets.xcassets */; };
+		55F217E72A60736D00EE95A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F217E52A60736D00EE95A7 /* LaunchScreen.storyboard */; };
+		55F217F22A60736E00EE95A7 /* mrz_parserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F217F12A60736E00EE95A7 /* mrz_parserTests.swift */; };
+		55F217FC2A60736E00EE95A7 /* mrz_parserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F217FB2A60736E00EE95A7 /* mrz_parserUITests.swift */; };
+		55F217FE2A60736E00EE95A7 /* mrz_parserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F217FD2A60736E00EE95A7 /* mrz_parserUITestsLaunchTests.swift */; };
+		55F2180C2A60738700EE95A7 /* MRZParser in Frameworks */ = {isa = PBXBuildFile; productRef = 55F2180B2A60738700EE95A7 /* MRZParser */; };
+		55F2180F2A60739600EE95A7 /* MRZScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 55F2180E2A60739600EE95A7 /* MRZScanner */; };
+		E4E2E6F30BBA732E53836674 /* Pods_mrz_parser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E3750A3107FF9272A8BCB2 /* Pods_mrz_parser.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55F217EE2A60736E00EE95A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55F217CF2A60736C00EE95A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55F217D62A60736C00EE95A7;
+			remoteInfo = "mrz parser";
+		};
+		55F217F82A60736E00EE95A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55F217CF2A60736C00EE95A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55F217D62A60736C00EE95A7;
+			remoteInfo = "mrz parser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55F217D72A60736C00EE95A7 /* mrz parser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mrz parser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F217DA2A60736C00EE95A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55F217DC2A60736C00EE95A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55F217DE2A60736C00EE95A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55F217E12A60736C00EE95A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55F217E32A60736D00EE95A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55F217E62A60736D00EE95A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55F217E82A60736D00EE95A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F217ED2A60736E00EE95A7 /* mrz parserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mrz parserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F217F12A60736E00EE95A7 /* mrz_parserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mrz_parserTests.swift; sourceTree = "<group>"; };
+		55F217F72A60736E00EE95A7 /* mrz parserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mrz parserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F217FB2A60736E00EE95A7 /* mrz_parserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mrz_parserUITests.swift; sourceTree = "<group>"; };
+		55F217FD2A60736E00EE95A7 /* mrz_parserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mrz_parserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63E3750A3107FF9272A8BCB2 /* Pods_mrz_parser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mrz_parser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E04910EE4B9A5D47086059B /* Pods-mrz parser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mrz parser.release.xcconfig"; path = "Target Support Files/Pods-mrz parser/Pods-mrz parser.release.xcconfig"; sourceTree = "<group>"; };
+		FD20092567C3B669AE2D06E3 /* Pods-mrz parser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mrz parser.debug.xcconfig"; path = "Target Support Files/Pods-mrz parser/Pods-mrz parser.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F217D42A60736C00EE95A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F2180C2A60738700EE95A7 /* MRZParser in Frameworks */,
+				55F2180F2A60739600EE95A7 /* MRZScanner in Frameworks */,
+				E4E2E6F30BBA732E53836674 /* Pods_mrz_parser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F217EA2A60736E00EE95A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F217F42A60736E00EE95A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B416C247DB55A18A480C4EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD20092567C3B669AE2D06E3 /* Pods-mrz parser.debug.xcconfig */,
+				6E04910EE4B9A5D47086059B /* Pods-mrz parser.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		55F217CE2A60736C00EE95A7 = {
+			isa = PBXGroup;
+			children = (
+				55F217D92A60736C00EE95A7 /* mrz parser */,
+				55F217F02A60736E00EE95A7 /* mrz parserTests */,
+				55F217FA2A60736E00EE95A7 /* mrz parserUITests */,
+				55F217D82A60736C00EE95A7 /* Products */,
+				2B416C247DB55A18A480C4EC /* Pods */,
+				CEF5F8114BC7CBBB3EEE2DD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55F217D82A60736C00EE95A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F217D72A60736C00EE95A7 /* mrz parser.app */,
+				55F217ED2A60736E00EE95A7 /* mrz parserTests.xctest */,
+				55F217F72A60736E00EE95A7 /* mrz parserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F217D92A60736C00EE95A7 /* mrz parser */ = {
+			isa = PBXGroup;
+			children = (
+				55F217DA2A60736C00EE95A7 /* AppDelegate.swift */,
+				55F217DC2A60736C00EE95A7 /* SceneDelegate.swift */,
+				55F217DE2A60736C00EE95A7 /* ViewController.swift */,
+				55F217E02A60736C00EE95A7 /* Main.storyboard */,
+				55F217E32A60736D00EE95A7 /* Assets.xcassets */,
+				55F217E52A60736D00EE95A7 /* LaunchScreen.storyboard */,
+				55F217E82A60736D00EE95A7 /* Info.plist */,
+			);
+			path = "mrz parser";
+			sourceTree = "<group>";
+		};
+		55F217F02A60736E00EE95A7 /* mrz parserTests */ = {
+			isa = PBXGroup;
+			children = (
+				55F217F12A60736E00EE95A7 /* mrz_parserTests.swift */,
+			);
+			path = "mrz parserTests";
+			sourceTree = "<group>";
+		};
+		55F217FA2A60736E00EE95A7 /* mrz parserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55F217FB2A60736E00EE95A7 /* mrz_parserUITests.swift */,
+				55F217FD2A60736E00EE95A7 /* mrz_parserUITestsLaunchTests.swift */,
+			);
+			path = "mrz parserUITests";
+			sourceTree = "<group>";
+		};
+		CEF5F8114BC7CBBB3EEE2DD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63E3750A3107FF9272A8BCB2 /* Pods_mrz_parser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F217D62A60736C00EE95A7 /* mrz parser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F218012A60736E00EE95A7 /* Build configuration list for PBXNativeTarget "mrz parser" */;
+			buildPhases = (
+				E88B58DFCC00307E54950358 /* [CP] Check Pods Manifest.lock */,
+				55F217D32A60736C00EE95A7 /* Sources */,
+				55F217D42A60736C00EE95A7 /* Frameworks */,
+				55F217D52A60736C00EE95A7 /* Resources */,
+				2A277E6D1BCD7CE76F3F0592 /* [CP] Embed Pods Frameworks */,
+				636424B23BCF4EB059776FD3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mrz parser";
+			packageProductDependencies = (
+				55F2180B2A60738700EE95A7 /* MRZParser */,
+				55F2180E2A60739600EE95A7 /* MRZScanner */,
+			);
+			productName = "mrz parser";
+			productReference = 55F217D72A60736C00EE95A7 /* mrz parser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55F217EC2A60736E00EE95A7 /* mrz parserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F218042A60736E00EE95A7 /* Build configuration list for PBXNativeTarget "mrz parserTests" */;
+			buildPhases = (
+				55F217E92A60736E00EE95A7 /* Sources */,
+				55F217EA2A60736E00EE95A7 /* Frameworks */,
+				55F217EB2A60736E00EE95A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55F217EF2A60736E00EE95A7 /* PBXTargetDependency */,
+			);
+			name = "mrz parserTests";
+			productName = "mrz parserTests";
+			productReference = 55F217ED2A60736E00EE95A7 /* mrz parserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55F217F62A60736E00EE95A7 /* mrz parserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F218072A60736E00EE95A7 /* Build configuration list for PBXNativeTarget "mrz parserUITests" */;
+			buildPhases = (
+				55F217F32A60736E00EE95A7 /* Sources */,
+				55F217F42A60736E00EE95A7 /* Frameworks */,
+				55F217F52A60736E00EE95A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55F217F92A60736E00EE95A7 /* PBXTargetDependency */,
+			);
+			name = "mrz parserUITests";
+			productName = "mrz parserUITests";
+			productReference = 55F217F72A60736E00EE95A7 /* mrz parserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F217CF2A60736C00EE95A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					55F217D62A60736C00EE95A7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					55F217EC2A60736E00EE95A7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 55F217D62A60736C00EE95A7;
+					};
+					55F217F62A60736E00EE95A7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 55F217D62A60736C00EE95A7;
+					};
+				};
+			};
+			buildConfigurationList = 55F217D22A60736C00EE95A7 /* Build configuration list for PBXProject "mrz parser" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55F217CE2A60736C00EE95A7;
+			packageReferences = (
+				55F2180A2A60738700EE95A7 /* XCRemoteSwiftPackageReference "MRZParser.git" */,
+				55F2180D2A60739600EE95A7 /* XCRemoteSwiftPackageReference "MRZScanner.git" */,
+			);
+			productRefGroup = 55F217D82A60736C00EE95A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F217D62A60736C00EE95A7 /* mrz parser */,
+				55F217EC2A60736E00EE95A7 /* mrz parserTests */,
+				55F217F62A60736E00EE95A7 /* mrz parserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55F217D52A60736C00EE95A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F217E72A60736D00EE95A7 /* LaunchScreen.storyboard in Resources */,
+				55F217E42A60736D00EE95A7 /* Assets.xcassets in Resources */,
+				55F217E22A60736C00EE95A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F217EB2A60736E00EE95A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F217F52A60736E00EE95A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A277E6D1BCD7CE76F3F0592 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mrz parser/Pods-mrz parser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mrz parser/Pods-mrz parser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mrz parser/Pods-mrz parser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		636424B23BCF4EB059776FD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mrz parser/Pods-mrz parser-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mrz parser/Pods-mrz parser-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mrz parser/Pods-mrz parser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E88B58DFCC00307E54950358 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mrz parser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F217D32A60736C00EE95A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F217DF2A60736C00EE95A7 /* ViewController.swift in Sources */,
+				55F217DB2A60736C00EE95A7 /* AppDelegate.swift in Sources */,
+				55F217DD2A60736C00EE95A7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F217E92A60736E00EE95A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F217F22A60736E00EE95A7 /* mrz_parserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F217F32A60736E00EE95A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F217FC2A60736E00EE95A7 /* mrz_parserUITests.swift in Sources */,
+				55F217FE2A60736E00EE95A7 /* mrz_parserUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55F217EF2A60736E00EE95A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55F217D62A60736C00EE95A7 /* mrz parser */;
+			targetProxy = 55F217EE2A60736E00EE95A7 /* PBXContainerItemProxy */;
+		};
+		55F217F92A60736E00EE95A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55F217D62A60736C00EE95A7 /* mrz parser */;
+			targetProxy = 55F217F82A60736E00EE95A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55F217E02A60736C00EE95A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F217E12A60736C00EE95A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55F217E52A60736D00EE95A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F217E62A60736D00EE95A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55F217FF2A60736E00EE95A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55F218002A60736E00EE95A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55F218022A60736E00EE95A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD20092567C3B669AE2D06E3 /* Pods-mrz parser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MM84DTNX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mrz parser/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rustam.manafli.mrz-parser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55F218032A60736E00EE95A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E04910EE4B9A5D47086059B /* Pods-mrz parser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MM84DTNX7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mrz parser/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rustam.manafli.mrz-parser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55F218052A60736E00EE95A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8GP8D8QVX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rustam.manafli.mrz-parserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mrz parser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mrz parser";
+			};
+			name = Debug;
+		};
+		55F218062A60736E00EE95A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8GP8D8QVX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rustam.manafli.mrz-parserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mrz parser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mrz parser";
+			};
+			name = Release;
+		};
+		55F218082A60736E00EE95A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8GP8D8QVX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rustam.manafli.mrz-parserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mrz parser";
+			};
+			name = Debug;
+		};
+		55F218092A60736E00EE95A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8GP8D8QVX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rustam.manafli.mrz-parserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mrz parser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F217D22A60736C00EE95A7 /* Build configuration list for PBXProject "mrz parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F217FF2A60736E00EE95A7 /* Debug */,
+				55F218002A60736E00EE95A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F218012A60736E00EE95A7 /* Build configuration list for PBXNativeTarget "mrz parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F218022A60736E00EE95A7 /* Debug */,
+				55F218032A60736E00EE95A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F218042A60736E00EE95A7 /* Build configuration list for PBXNativeTarget "mrz parserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F218052A60736E00EE95A7 /* Debug */,
+				55F218062A60736E00EE95A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F218072A60736E00EE95A7 /* Build configuration list for PBXNativeTarget "mrz parserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F218082A60736E00EE95A7 /* Debug */,
+				55F218092A60736E00EE95A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55F2180A2A60738700EE95A7 /* XCRemoteSwiftPackageReference "MRZParser.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/romanmazeev/MRZParser.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		55F2180D2A60739600EE95A7 /* XCRemoteSwiftPackageReference "MRZScanner.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/romanmazeev/MRZScanner.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55F2180B2A60738700EE95A7 /* MRZParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55F2180A2A60738700EE95A7 /* XCRemoteSwiftPackageReference "MRZParser.git" */;
+			productName = MRZParser;
+		};
+		55F2180E2A60739600EE95A7 /* MRZScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55F2180D2A60739600EE95A7 /* XCRemoteSwiftPackageReference "MRZScanner.git" */;
+			productName = MRZScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 55F217CF2A60736C00EE95A7 /* Project object */;
+}
