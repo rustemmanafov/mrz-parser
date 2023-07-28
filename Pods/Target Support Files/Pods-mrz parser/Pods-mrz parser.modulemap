@@ -1,0 +1,6 @@
+framework module Pods_mrz_parser {
+  umbrella header "Pods-mrz parser-umbrella.h"
+
+  export *
+  module * { export * }
+}
